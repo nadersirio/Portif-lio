@@ -1,0 +1,167 @@
+body {
+  font-family: "Barlow Condensed";
+  background: hsla(284, 80%, 10%, 1);
+  background: linear-gradient(
+    360deg,
+    hsla(284, 80%, 10%, 1) 0%,
+    hsla(290, 25%, 76%, 1) 100%
+  );
+  background: -moz-linear-gradient(
+    90deg,
+    hsla(284, 80%, 10%, 1) 0%,
+    hsla(290, 25%, 76%, 1) 100%
+  );
+  background: -webkit-linear-gradient(
+    310deg,
+    hsla(284, 80%, 10%, 1) 0%,
+    hsla(290, 25%, 76%, 1) 100%
+  );
+  filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#22052D", endColorstr="#CCB3D1", GradientType=1 );
+}
+
+.darkMode {
+  background: hsla(0, 100%, 31%, 1);
+  background: linear-gradient(
+    90deg,
+    hsla(0, 90%, 31%, 1) 0%,
+    hsla(0, 0%, 0%, 1) 87%
+  );
+  background: -moz-linear-gradient(
+    90deg,
+    hsla(0, 90%, 31%, 1) 0%,
+    hsla(0, 0%, 0%, 1) 87%
+  );
+  background: -webkit-linear-gradient(
+    130deg,
+    hsla(0, 90%, 31%, 1) 0%,
+    hsla(0, 0%, 0%, 1) 87%
+  );
+}
+
+.darkMode .img-principal {
+  box-shadow: #ff995d 7px 1px 15px;
+}
+
+.tema {
+  display: flex;
+  justify-content: flex-end;
+  margin: 2em 10% 0px 0px;
+}
+
+.darkMode .botao-escuro {
+  background: #444444;
+  color: white;
+  transition: 0.3s;
+}
+
+.botao-escuro {
+  font-size: 25px;
+  font-family: Barlow Condensed;
+  font-weight: 900;
+  border-radius: 20px;
+  margin-bottom: 10px;
+  text-shadow: 1px 0px 0px black;
+  transition: 0.3s;
+}
+
+.botao-escuro:hover {
+  font-size: 30px;
+  cursor: pointer;
+}
+
+.img-principal {
+  border-radius: 30px 30px 230px 230px;
+  width: 20em;
+  border: solid 1px white;
+  box-shadow: white 7px 1px 15px;
+}
+
+.customizando-cabecalho {
+  filter: brightness(0.8);
+  display: flex;
+  justify-content: center;
+}
+
+.titulos {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 0px 12% 0px 14%;
+  padding-bottom: 20px;
+  border-bottom: solid white 1px;
+}
+
+h1,
+h2 {
+  text-shadow: 3px 3px 0px black;
+  color: white;
+  font-size: 30px;
+  margin: 0px;
+  padding: 0px;
+}
+
+.card-principal {
+  margin-right: 10%;
+  font-size: 25px;
+  color: white;
+  font-weight: 600;
+  display: flex;
+  justify-content: space-around;
+}
+
+.card-secundario {
+  margin: 10px 50px 40px 50px;
+  font-weight: 100;
+  display: flex;
+  flex-direction: column;
+  border-top: solid 1px white;
+}
+
+p {
+  font-size: 30px;
+  color: white;
+  word-break: break-word;
+  margin: 15px 15px 15px 25px;
+}
+
+h3,
+h4 {
+  text-shadow: 4px 4px 2px black;
+  color: white;
+  font-size: 30px;
+  margin: 15px 0px 5px 0px;
+  padding: 0px;
+}
+
+.emoji {
+  width: 10px;
+}
+
+a {
+  color: white;
+  padding-bottom: 5px;
+  text-underline-offset: 2px;
+  transition: 0.5s;
+}
+
+a:hover {
+  font-size: 35px;
+  color: #56cfe1;
+  text-decoration-color: black;
+  text-shadow: 1px 0px 1px black;
+}
+
+.darkMode a:hover {
+  color: #bc6c25;
+  text-decoration-color: white;
+}
+
+.icones {
+  width: 25px;
+  margin: 0px 0px -5px 5px;
+}
+
+a .icones:hover {
+  width: 30px;
+  margin: 0px 0px -5px 5px;
+}
